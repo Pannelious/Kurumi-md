@@ -4,18 +4,18 @@ const chalk = require("chalk");
 // Other
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "917003213983";
+  gg = "263788914422";
 }
 
 global.owner = gg.split(",");
 global.mongodb = process.env.MONGODB || "none";
 global.pgdb = process.env.DATABASE_URL || "none";
 global.port = process.env.PORT || 8080;
-(global.packname = process.env.PACKNAME || "Ari"),
+(global.packname = process.env.PACKNAME || "Master"),
   (global.prefix = process.env.PREFIX || "."),
-  (global.author = process.env.AUTHOR || "Ani"),
-  (global.sessionName = "Aku"),
-  (global.name = process.env.NAME || "Tokisaki-Kurumi"),
+  (global.author = process.env.AUTHOR || "peace"),
+  (global.sessionName = "Master"),
+  (global.name = process.env.NAME || "Master-Peace"),
   (global.thumb = fs.readFileSync("./src/assest/info.jpeg"));
 
 let file = require.resolve(__filename);
